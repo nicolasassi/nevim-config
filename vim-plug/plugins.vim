@@ -18,7 +18,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'edkolev/tmuxline.vim'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     Plug 'gilgigilgil/anderson.vim'
     Plug 'baskerville/bubblegum'
     Plug 'vim-airline/vim-airline'
